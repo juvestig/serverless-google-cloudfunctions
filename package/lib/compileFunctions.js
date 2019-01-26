@@ -126,9 +126,11 @@ const validateEventsProperty = (funcObject, functionName) => {
 
 const getFunctionTemplate = (funcObject, region, sourceArchiveUrl) => { //eslint-disable-line
   return {
-    type: 'cloudfunctions.v1beta2.function',
+    type: 'cloudfunctions.v1.function',
+    //type: 'gcp-types/cloudfunctions-v1: projects.locations.functions',
     name: funcObject.name,
     properties: {
+      //parent: 'projects/gcloud-project-id/locations/us-central1',
       location: region,
       availableMemoryMb: 256,
       runtime: 'nodejs8',

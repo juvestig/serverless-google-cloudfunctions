@@ -110,7 +110,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -145,7 +145,7 @@ describe('CompileFunctions', () => {
       googlePackage.serverless.service.provider.memorySize = 1024;
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -180,7 +180,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -215,7 +215,7 @@ describe('CompileFunctions', () => {
       googlePackage.serverless.service.provider.timeout = '120s';
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -252,7 +252,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -291,7 +291,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -334,7 +334,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -374,7 +374,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -414,7 +414,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -451,7 +451,7 @@ describe('CompileFunctions', () => {
       };
 
       const compiledResources = [{
-        type: 'cloudfunctions.v1beta2.function',
+        type: 'cloudfunctions.v1.function',
         name: 'my-service-dev-func1',
         properties: {
           location: 'us-central1',
@@ -503,7 +503,7 @@ describe('CompileFunctions', () => {
 
       const compiledResources = [
         {
-          type: 'cloudfunctions.v1beta2.function',
+          type: 'cloudfunctions.v1.function',
           name: 'my-service-dev-func1',
           properties: {
             location: 'us-central1',
@@ -521,7 +521,7 @@ describe('CompileFunctions', () => {
           },
         },
         {
-          type: 'cloudfunctions.v1beta2.function',
+          type: 'cloudfunctions.v1.function',
           name: 'my-service-dev-func2',
           properties: {
             location: 'us-central1',
